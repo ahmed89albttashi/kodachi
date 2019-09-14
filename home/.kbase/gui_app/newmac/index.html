@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title>Newmac tool 0.1 - Kodachi</title>
+        <link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.min.css">
+
+        <script >            window.$ = window.jQuery = require('jquery');
+            </script>
+        <script src="shell.js"></script>
+        <script src="node_modules/semantic-ui/dist/semantic.min.js"></script>
+    </head>
+    <body>
+        <div class="ui container">
+            <div class="ui basic segment">
+                
+                <h1 class="ui massive dividing header">
+                    <div class="ui label"><i class="angle double right icon"></i></div>    
+                    
+                  Newmac</h1>
+                
+                <div style="direction: rtl">
+                <button id="action-btn" class="ui teal button rtl" style="direction: rtl" onclick="change_all_mac()">Change all MAC</button>
+              </div>
+                <p></p>
+                <i id="star" class="huge yellow star icon" style="display:none"></i>
+                
+
+                <div class="ui top attached tabular menu">
+                    <a class="item " data-tab="first">Interfaces</a>
+                    <a class="item active" data-tab="second">Mac Addresses</a>
+                    
+                  </div>
+                  
+                  <div class="ui bottom attached tab segment active" data-tab="second">
+                    
+                    <table class="ui celled padded table" id='all_mac'>
+                        <thead>
+                            <tr><th class="single line"> Device </th>
+                            <th>MAC</th>
+                        </tr></thead>
+                        <tbody> 
+                        </tbody>
+                        </table>
+                  </div> 
+                  <div class="ui bottom attached tab segment " data-tab="first">
+                    <table class="ui celled padded table" id='all_interfaces'>
+                        <thead>
+                            <tr><th class="single line"> Name </th>
+                            <th>UUID</th>
+                            <th>Type</th>
+                            <th>Device</th>
+                        </tr></thead>
+                        <tbody> 
+                        </tbody>
+                        </table>
+                  </div>
+                  
+                 
+            </div>
+            <div style="direction: rtl"> <a href="#">have an issue ? reset now </a> </div>
+            
+        </div>
+        <script >
+function bootup(){
+         $('.menu .item').tab();
+         var interfaces  = list_all_interfaces()
+         console.log(interfaces)
+         $('#all_interfaces').find('tbody').empty();
+
+         $.each(JSON.parse(interfaces), function(k, v) {
+             var row = "<tr><td>"+v.NAME+"</td><td>"+v.UUID+"</td><td>"+v.TYPE+"</td><td>"+v.DEVICE+"</td></tr>";
+             $('#all_interfaces').find('tbody').append(row);
+         });
+ 
+        var maces = list_all_mac()
+       
+        $('#all_mac').find('tbody').empty();
+
+         var menu_html=`<div class="ui compact menu right">
+  <div class="ui simple dropdown item">
+    <i class="pencil alternate icon"></i> 
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <div class="item" onclick="changemac_random(this)">Random MAC</div>
+      <div class="item">Specific MAC</div> 
+    </div>
+  </div>
+</div>`;
+         console.log(maces)
+          $.each(maces, function(k, v) {
+              var row = "<tr><td>"+v.DEVICE+"</td><td data-mac="+v.MAC+" data-devicename="+v.DEVICE+">"+v.MAC;
+              row+=menu_html+
+                        ' </td></tr>';
+              $('#all_mac').find('tbody').append(row);
+          });
+          $('.ui.dropdown')
+  .dropdown();
+}
+bootup()
+
+        </script>
+    </body>
+</html>

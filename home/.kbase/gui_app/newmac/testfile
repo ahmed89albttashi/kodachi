@@ -1,0 +1,62 @@
+NAME                      UUID                                  TYPE       DEVICE     
+Ooredoo-B310-2AFF         486879a5-4bdd-48d3-ac32-aede9ea195cf  wifi       wlp2s0     
+virbr0                    bcbe3e67-3215-432b-8ac0-ef936717186b  bridge     virbr0     
+tap0                      d0e19dea-304c-4e05-86d6-c985bf18c2c8  tun        tap0       
+virbr0-nic                971e8ecf-e41f-4061-9014-85166e670227  tun        virbr0-nic 
+Ahmed                     8330283f-a774-4fd7-a00f-62ef91a3bf34  wifi       --         
+amjad                     cffcc896-c395-42c5-bd70-6e1162b97d45  wifi       --         
+AndroidAP                 a27300a2-81a8-4456-bf9b-1cdd8e1669f3  wifi       --         
+AndroidShare_9795         94a4c027-d184-40f9-88e5-8fe110fd1796  wifi       --         
+ashraf1                   35675eb4-cbb4-4ccc-ade9-0099115ec4ef  wifi       --         
+Asim                      9ea5b5bd-c1e8-4142-af2b-436a8b4e720c  wifi       --         
+aut3                      06048b9b-69c8-4bd2-aba7-d483599d3363  ethernet   --         
+auto                      9328bc58-a450-44bb-9d6b-912b516b4a04  ethernet   --         
+CLOUDCAM_e009bf00b1b3     dfc05db2-52c9-4f94-b28a-ec3f5791dc6a  wifi       --         
+CLOUDCAM_e009bf061db0     f3630850-e2ea-41a4-86a5-6f86e3b95feb  wifi       --         
+Dana.Beach                cd241252-8f81-47ec-b6ca-b26c6ee31cdf  wifi       --         
+Dana net 2                2bfd08df-033c-4ef2-b662-94032eb1d905  wifi       --         
+Dana.Net 2                35e2a8f8-551b-41a7-bc83-f76720dec490  wifi       --         
+England_freeopenvpn_udp   62a264a2-67a7-44c2-a1f8-5f0e85a486c2  vpn        --         
+Faisal                    503f14a0-4183-468d-9519-c242e9e1bb22  wifi       --         
+free                      9eef47ac-74ec-4e93-b3b1-f333cc57db98  wifi       --         
+hacker3                   d6dfdfac-5947-40a9-b9e4-84198e63f948  wifi       --         
+Hamood Wifi               b38576b0-18ef-4161-b19d-899197c24e38  wifi       --         
+Hotspot                   a0373dc5-45e0-483c-a2ec-b1c43b9931c6  wifi       --         
+Hotspot                   656712c6-816b-4212-a04e-5b5fc27b9c31  wifi       --         
+HUAWEI-B315-43CB          fd36af3b-c3a3-493f-8837-96cb70b20be0  wifi       --         
+HUAWEI-B315-4443          77a09616-f531-4133-aad4-62cd3486fdbf  wifi       --         
+HUAWEI-B315-A2F1          bc0468cd-ba39-46a8-85e7-e327f95ab67d  wifi       --         
+HUAWEI_P8_D7C1            c1b04acd-05fa-4138-acec-0fb38442abb0  wifi       --         
+HUAWEI TIT-AL00_5064      f1ac1479-27d2-4396-a9b6-9cf4400ab665  wifi       --         
+HUAWEI TIT-AL00_5064 1    57a4c39b-b9f6-4b8d-894f-6d9d7fb78c8f  wifi       --         
+iPhone                    c227b42e-18ff-4f70-bc22-6859f703e090  wifi       --         
+kl                        1dce9ac0-0e7f-4558-ad13-cb6aed7de4c5  wifi       --         
+Linksys00463              ab52e981-5aa1-49b0-82ca-5f5017fab04d  wifi       --         
+Living Room TV.b          a7464e77-ce7b-4e48-9753-fe9637dc7a26  wifi       --         
+LW0                       1a7219b9-d633-4428-b922-fc861f40d834  wifi       --         
+MAIPU                     e381a046-1fd1-498e-8eb3-3473c61e9a2a  wifi       --         
+OCS-WIFI                  90ff9b06-a476-4bce-b70a-d168baa50145  wifi       --         
+Omantel                   d86e1410-1e1a-43ac-ba28-5f54cfd22ee2  wifi       --         
+OMXDemo                   8dae869e-87a0-43d6-844d-7c88d6e34527  wifi       --         
+POCOPHONE Network         2b613b2c-a5c7-481d-967a-5d1256f3850a  bluetooth  --         
+Profile 1                 667740db-23d1-482b-b66d-863eb8549edd  ethernet   --         
+Profile 2                 cf6fa1ac-b40f-4839-b7e3-a5a6c8219800  ethernet   --         
+Russia-3_freeopenvpn_udp  a46811da-b436-4609-84ba-013fcbc4f26f  vpn        --         
+SalamahSecurity           95d99ab6-716a-4cf9-855f-3ed1801d04be  wifi       --         
+shabib009                 af57790f-cd5c-4667-b9fd-175699396095  wifi       --         
+SmartLife-F6BA            17401328-3b60-445d-a70b-f4e56b3815b7  wifi       --         
+Taha Bashir               b16d5dee-1bc1-43f8-9bbe-ec4e79a9253b  wifi       --         
+Taha Bashir1              908cb261-cd8f-4180-a6f6-c89a80d3b96c  wifi       --         
+TP-Link_5E42              3005eae7-072c-44c3-be79-90124538ff23  wifi       --         
+TP-LINK_AP_8784           01f31313-2db2-4afd-8372-cfe85ce72887  wifi       --         
+TP-LINK_C4D8E0            f424656e-573d-4c80-9b80-0bd7408b62f0  wifi       --         
+TP-LINK_C4D8E0 1          e55c88ce-7be2-4ed9-b0b2-e34221ac21bd  wifi       --         
+TP-LINK_C4D8E0_EXT2.4G    de18ce18-a6e5-4e7a-8a75-68a9c3d7735c  wifi       --         
+TP-LINK_DCD4              05b0314f-ce06-4ac1-9564-33c2d7995126  wifi       --         
+TP-LINK_E2FCEA            d9b5487e-0b0d-442a-84b5-d635b98fd976  wifi       --         
+TP-Link_Extender          4651d61e-887a-4cf9-9b3e-4061b1afc939  wifi       --         
+TV3 Network               8cba6e19-9756-48b8-8e20-2a5be35cd5ea  bluetooth  --         
+UMIDIGI Plus E            cc488a94-1d29-431d-8968-2466a065c66a  wifi       --         
+WAVLINK-N                 ba60b91b-624c-4bba-bef0-0bb050a001a5  wifi       --         
+Xperia XZ Premium_174a    f2eafcd9-9e0d-4fe1-a98e-c3c51993ba47  wifi       --         
+XPG-GAgent-xxxx Network   d9fd6ff4-68f2-4cea-a281-cce506a09ce3  bluetooth  --         

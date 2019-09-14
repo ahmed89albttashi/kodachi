@@ -1,0 +1,33 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ SoundMachine --all --out ~/Desktop/SoundMachine --version 0.30.2 --overwrite --icon=./app/img/app-icon.icns"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^6.0.5",
+    "electron-packager": "^14.0.5"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "jquery": "^3.4.1",
+    "json-to-table": "^4.1.0",
+    "python-shell": "^1.0.8",
+    "semantic": "0.0.1",
+    "semantic-ui": "^2.4.2",
+    "shelljs": "^0.8.3"
+  }
+}
